@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Customer Query</h1>
+        <form method=GET" action="customer">
+            Customer Id:
+            <input type="number" name="customerId"
+                   placeholder=""Please enter the customer id to search">
+                   <button type=""submit">Search</button>
+        </form>
+        <hr>
+        
+        <h1> Create new Customer</h1>
+        <form method="post" action="customer">
+              <table>
+                  <tr>
+                      <td>Customer Id</td>
+                      <td>
+                          <Input type="number" name="customerId">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Name</td>
+                      <td>
+                          <Input type="text" name="name">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Address 1</td>
+                      <td>
+                          <Input type="text" name="addressline1">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Address 2</td>
+                      <td>
+                          <Input type="text" name="addressline2">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>City</td>
+                      <td>
+                          <Input type="text" name="city">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>State</td>
+                      <td>
+                          <Input type="text" name="state">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Zip</td>
+                      <td>
+                          <Input type="text" name="zip">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Phone</td>
+                      <td>
+                          <Input type="text" name="phone">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Fax</td>
+                      <td>
+                          <Input type="text" name="fax">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Email</td>
+                      <td>
+                          <Input type="text" name="email">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Discount Code</td>
+                      <td>
+                          <select name="discountCode">
+                              <option value="H">H</option>
+                              <option value="M">M</option>
+                              <option value="L">L</option>
+                              <option value="N">N</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr>
+                  <td>Credit Limit</td>
+                      <td>
+                          <Input type="number" name="creditLimit">
+                      </td>
+                  </tr>
+                  <tr>
+                  <td></td>
+                      <td>
+                          <button type="submit">Add</button>
+                      </td>
+                  </tr>
+            </table>
+               
+    </body>
+</html>
